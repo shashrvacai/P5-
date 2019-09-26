@@ -1,2 +1,2 @@
 The plan is to learn to build a website.
-01 - static animations
+01 - static animations   -- https://shashrvacai.github.io/P5-/moving%20slit/
