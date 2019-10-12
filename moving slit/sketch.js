@@ -21,9 +21,9 @@ function setup() {
 function draw() {
 	background(255);
 	image(img, 0, 0, width, 750);
-	image(img1, 0, 0, width, 750);
-	image(img2, 0, 0, width, 750);
-	image(img3, 0, 0, width, 750);
+	image(img1, 0, 750, width, 750);
+	image(img2, 0, 1500, width, 750);
+	image(img3, 0, 2250, width, 750);
 	
 	let x = sin(a) * width / 8 - 11.5;
 
