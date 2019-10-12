@@ -1,7 +1,8 @@
-let img,img1,img3;
+let img, img1, img3;
 let a = 0,
 	w = 1;
 var can1, can2, can3;
+var imgSize = 750;
 
 function preload() {
 	img = loadImage('03.jpg');
@@ -11,21 +12,22 @@ function preload() {
 }
 
 function setup() {
-	can1 = createCanvas(750, 3000);
+	can1 = createCanvas(windowWidth, 3000);
 
 	//	can2 = createCanvas(750, 750);
-	w = width / 500;
+	w = imgSize / 500;
 
 }
 
 function draw() {
 	background(255);
-	image(img, 0, 0, width, 750);
-	image(img1, 0, 750, width, 750);
-	image(img2, 0, 1500, width, 750);
-	image(img3, 0, 2250, width, 750);
-	
-	let x = sin(a) * width / 8 - 11.5;
+	imageMode(CENTER);
+	image(img, width / 2, 375, imgSize, imgSize);
+	image(img1, width / 2, 1125, imgSize, imgSize);
+	image(img2, width / 2, 1775, imgSize, imgSize);
+	image(img3, width / 2, 2650, imgSize, imgSize);
+
+	let x = sin(a) * 93 - 13.5;
 
 	fill(0);
 
@@ -33,6 +35,7 @@ function draw() {
 	translate(x + width / 4, 0);
 	drawSlit();
 	pop();
+
 	a += 0.005;
 
 }
@@ -40,6 +43,6 @@ function draw() {
 function drawSlit() {
 	for (let i = -width / 2; i < width; i += 5 * w) {
 		rect(i, 0, w * 4, height);
-
 	}
+	
 }
