@@ -43,7 +43,7 @@ function draw() {
 	fill(0);
 
 	push();
-	translate(mouseX, 0);
+	translate(0, mouseY);
 	drawSlit();
 	pop();
 
