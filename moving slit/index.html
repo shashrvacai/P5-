@@ -9,7 +9,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.dom.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.sound.js"></script>
-	
+
 	<script src="sketch.js" type="text/javascript"></script>
 
 	<style>
@@ -22,10 +22,56 @@
 		canvas {
 			vertical-align: top;
 		}
+		
+		.buttonHome {
+			position: absolute;
+			left: 100px;
+			top: 150px;
+			background-color: black;
+			border: 2px;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			-webkit-transition-duration: 0.4s;			/* Safari */
+			transition-duration: 0.4s;
+		}
+		
+		.buttonHome:hover {
+			background-color: #1cceff;
+			color: white;
+		}
+		
+		.buttonPortfolio {
+			position: absolute;
+			left: 210px;
+			top: 150px;
+			background-color: black;
+			border: 2px;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		
+		.buttonPortfolio:hover {
+			background-color: #1cceff;
+			color: white;
+		}
 	</style>
 </head>
 
 <body>
+	<a href="http://shashrvacai.com/" class="buttonHome">Home</a>
+	<a href="http://shashrvacai.com/portfolio/" class="buttonPortfolio">Portfolio</a>
 </body>
 
 </html>
