@@ -44,7 +44,7 @@ function draw() {
 
 	push();
 	let xx = map(mouseX,0 ,width,-40,40)
-	translate(xx+width/2, 0);
+	translate(xx, 0);
 	drawSlit();
 	pop();
 
