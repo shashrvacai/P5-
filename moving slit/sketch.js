@@ -43,7 +43,8 @@ function draw() {
 	fill(0);
 
 	push();
-	translate(0, mouseY);
+	let xx = map(mouseX,0 ,width,-40,40)
+	translate(xx, 0);
 	drawSlit();
 	pop();
 
@@ -62,8 +63,7 @@ function draw() {
 
 function drawSlit() {
 	stroke(0);
-	for (let i = -width / 2; i < width / 2; i += 5 * w) {
-		rectMode(CENTER);
+	for (let i = -40; i < 40+width ; i += 5 * w) {
 		ellipse(i, mouseY, w * 4, 700);
 	}
 
