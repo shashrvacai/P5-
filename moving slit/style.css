@@ -1,58 +1,60 @@
-html, body {
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  padding: 0;
-  justify-content: center;
+	margin: 0;
+	display: flex;
+	padding: 0;
+	justify-content: center;
 }
-		
-		canvas {
-			vertical-align: top;
-		}
-		
-		.buttonHome {
-			position: absolute;
-			left: 100px;
-			top: 150px;
-			background-color: black;
-			border: 2px;
-			color: white;
-			padding: 15px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-			-webkit-transition-duration: 0.4s;			/* Safari */
-			transition-duration: 0.4s;
-		}
-		
-		.buttonHome:hover {
-			background-color: #1cceff;
-			color: white;
-		}
-		
-		.buttonPortfolio {
-			position: absolute;
-			left: 210px;
-			top: 150px;
-			background-color: black;
-			border: 2px;
-			color: white;
-			padding: 15px 32px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
-			cursor: pointer;
-		}
-		
-		.buttonPortfolio:hover {
-			background-color: #1cceff;
-			color: white;
-		}
+
+canvas {
+	vertical-align: top;
+}
+
+.buttonHome {
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	background-color: black;
+	border: 2px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+}
+
+.buttonHome:hover {
+	background-color: #1cceff;
+	color: white;
+}
+
+.buttonPortfolio {
+	position: absolute;
+	left: 210px;
+	top: 150px;
+	background-color: black;
+	border: 2px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.buttonPortfolio:hover {
+	background-color: #1cceff;
+	color: white;
+}
